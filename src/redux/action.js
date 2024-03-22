@@ -1,4 +1,4 @@
-import { ADD_TO_CART } from "./constraints";
+import { ADD_TO_CART, REMOVE_TO_CART } from "./constraints";
 
 export const addToCart = (data) =>{
     console.warn("action called", data);
