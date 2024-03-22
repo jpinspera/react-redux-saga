@@ -1,7 +1,9 @@
+import { ADD_TO_CART } from "./constraints";
+
 export const addToCart = (data) =>{
     console.warn("action called", data);
     return {
-        type: 'Add_To_Cart',
+        type: ADD_TO_CART,
         data
     }
 }

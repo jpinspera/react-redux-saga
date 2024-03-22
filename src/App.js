@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { addToCart } from './redux/action';
 import { useDispatch } from 'react-redux';
