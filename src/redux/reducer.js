@@ -12,8 +12,8 @@ export const cartData = (data = [], action) => {
     case ADD_TO_CART:
       //Add to cart logic
       console.warn("Add to cart condition", action);
-      return 1 + 1;
+      return [action.data, ...data];
     default:
-      return "no action called";
+      return data;
   }
 };
