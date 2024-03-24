@@ -5,7 +5,7 @@ import { productList } from '../redux/productAction';
 function Main() {
   const dispatch = useDispatch();
   const data = useSelector((state)=> state.productData);
-  console.warn("data in main component",data);
+  console.warn("data in main component from saga",data);
   const product = {
     name: "I phone",
     type: "mobile",
